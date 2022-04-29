@@ -20,7 +20,7 @@ spec:
       app: echo
   strategy:
     type: Recreate
-  replicas: 2
+  replicas: 3
   template:
     metadata:
       labels:
